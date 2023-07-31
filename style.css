@@ -1,0 +1,56 @@
+/* Reset padrão de margem e padding para o body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização básica para o chat-container */
+#chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização básica para as mensagens do chat */
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.chat-message-apelido {
+    font-weight: bold;
+    color: #333;
+}
+
+.chat-message-item {
+    margin-left: 10px;
+    color: #333;
+}
+
+/* Estilização do campo de entrada de mensagem */
+#message-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilização do botão de envio de mensagem */
+#message-commit {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#message-commit:hover {
+    background-color: #45a049;
+}

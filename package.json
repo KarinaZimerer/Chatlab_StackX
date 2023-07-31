@@ -1,0 +1,14 @@
+{
+  "name": "chatlab",
+  "version": "1.0.0",
+  "description": "Uma implementação simples de uma engine de chat",
+  "main": "chat.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "KArina Zimerer",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
